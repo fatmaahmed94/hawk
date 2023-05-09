@@ -3,7 +3,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:hawk/pages/contact_us.dart';
+import 'package:hawk/pages/home.dart';
 import 'package:hawk/pages/services.dart';
+import 'package:hawk/pages/splash.dart';
+import 'package:hawk/pages/widgets/splash_view_body.dart';
+import 'package:hawk/widgets/video.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -14,17 +18,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      
       debugShowCheckedModeBanner: false,
-      home:ContactUs
-      (),
+      home:Home()
+      
     );
   }
 }
-class Hawh extends StatelessWidget {
-  const Hawh({super.key});
+// class Hawh extends StatelessWidget {
+//   const Hawh({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold();
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold();
+//   }
+// }

@@ -143,6 +143,3 @@ class _ContactUsState extends State<ContactUs> {
     );
   }
 }
-
-class Gps {
-}
